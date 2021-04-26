@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    
+    </head>
+
+    <body>
+        <h1>Calculator</h1>
+        <div class="card">
+            <div class="calc-head">
+                <input type="text" id="result" maxlength="10">
+            </div>
+            <div class="calc-body">
+                <input type="button" class="btn" value="C" onclick="clearResult()">
+                <input type="button" class="btn" value="+/-">
+                <input type="button" class="btn" value="%">
+                <input type="button" class="btn btn-style" value="/" onclick="insertNumber('/')">
+            </div>
+            <div class="calc-body">
+                <input type="button" class="btn" value="7" onclick="insertNumber(7)">
+                <input type="button" class="btn" value="8" onclick="insertNumber(8)">
+                <input type="button" class="btn" value="9" onclick="insertNumber(9)">
+                <input type="button" class="btn btn-style" value="X" onclick="insertNumber('*')">
+            </div>
+            <div class="calc-body">
+                <input type="button" class="btn" value="4" onclick="insertNumber(4)">
+                <input type="button" class="btn" value="5" onclick="insertNumber(5)">
+                <input type="button" class="btn" value="6" onclick="insertNumber(6)">
+                <input type="button" class="btn btn-style" value="-" onclick="insertNumber('-')">
+            </div>
+            <div class="calc-body">
+                <input type="button" class="btn" value="1" onclick="insertNumber(1)">
+                <input type="button" class="btn" value="2" onclick="insertNumber(2)">
+                <input type="button" class="btn" value="3"onclick="insertNumber(3)">
+                <input type="button" class="btn btn-style" value="+" onclick="insertNumber('+')">
+            </div>
+            <div class="calc-body">
+                <input type="button" class="btn" value="0" onclick="insertNumber(0)">
+                <input type="button" class="btn" value="." onclick="insertNumber('.')">
+                <input type="button" class="btn" value="DEL" onclick="deleteNumber()">
+                <input type="button" class="btn" style="background-color: rgb(54, 231, 172);" value="=" onclick="calculate()">
+            </div>
+
+        </div>
+
+    
+
+        <!-- <p id="p1">THis is a paragaraph 1</p>
+
+        <a href="http://google.com" target="blank">Google</a> -->
+            
+        <!-- <h1>This is demo </h1>
+        <button class="myButton">Button1</button>
+        <button class="myButton">Button2</button>
+        <button class="myButton">Button3</button> -->
+
+        <!-- <input type="password" name="" id="pass1" placeholder="Enter password"><br> <br>
+        <input type="password" name="" id="pass2" placeholder="ReEnter password"><br> <br>
+
+        <button id="loginButton">Login</button> -->
+
+        <!-- //animate------------------ -->
+
+        <!-- <button id="btn">click me</button>
+
+        <div id="div1" class="div-style">
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero mollitia fugiat repudiandae placeat. Tenetur pariatur repellat similique possimus corporis nulla, est assumenda ad. Optio, necessitatibus aliquid debitis nesciunt illum fuga!</p>
+
+        </div> -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="index.js"></script>
+
+    </body>
+
+
+
+
+    </html>
